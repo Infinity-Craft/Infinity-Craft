@@ -26,9 +26,16 @@ p {
   font-size: 25px
 }
 
+.right {
+  position: absolute;
+  right: 0px;
+  width: 500px;
+  padding: 10px;
+}
 
-
-
+.uplittle {
+ position: relative; top: -150px;
+ }
 
 
 
