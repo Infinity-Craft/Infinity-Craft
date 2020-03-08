@@ -5,6 +5,18 @@ body {
   background: linear-gradient (to right, #0f0c29 0% , #302b63, 50% #24243e 100%);
 }
 
+#navbar {
+  overflow: hidden;
+  background-color: rgb(51, 62, 156);
+}
+
+#navbar
+
+
+
+
+
+
   img {
     display: block;
     margin-left: auto;
@@ -34,7 +46,7 @@ p {
 }
 
 .uplittle {
- position: relative; top: -795px;
+ position: relative; top: -750px;
  }
 
 h2 {
