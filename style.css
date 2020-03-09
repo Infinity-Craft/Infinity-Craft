@@ -1,0 +1,93 @@
+body {
+  background: rgb(38, 0, 128);
+  background: -moz-linear-gradient (to right, #0f0c29 0% , #302b63, 50% #24243e 100%);
+  background: -webkit-gradient (to right, #0f0c29 0% , #302b63, 50% #24243e 100%);
+  background: linear-gradient (to right, #0f0c29 0% , #302b63, 50% #24243e 100%);
+
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: rgb(38, 0, 128);
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  line-height: 60px;
+
+}
+
+nav ul {
+  float: left;
+  margin: 0px;
+  padding-right: 42px;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 16px 32px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.Navicon {
+  height: 48px;
+  float: left;
+  margin: 16px 48px;
+}
+
+nav.black {
+  background: rgb(75, 74, 165);
+}
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  h1 {
+    color: white;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px
+}
+
+p {
+  color: white;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px
+}
+
+.right {
+  position: absolute;
+  right: 0px;
+  width: 500px;
+  padding: 10px;
+}
+
+.uplittle {
+ position: relative; top: -1000px;
+ }
+
+h2 {
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px
+}
+
+
+
+
+
