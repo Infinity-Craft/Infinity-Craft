@@ -1,95 +1,94 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
+    <title>Infinity Craft Official Website</title>
 
-<title>Infinity Craft Official Website</title>
+    <!-- LINKING AREA-->
 
-<!-- LINKING AREA-->
+    <script src="code.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" type="image/jpg" href="Images/Favicon.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<script src="code.js"></script>
-<link rel="stylesheet" href="./style.css">
-<link rel="shortcut icon" type="image/jpg" href="Images/Favicon.jpg">
-
-<!-- NAV BAR CODE -->
-
-<script
-  src="https://code.jquery.com/jquery-3.4.1.js"></script>
-
-<head>
-<body>
-
-<header>
-
-    <nav>
-
-        
-
+    <!-- NAV BAR CODE -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
         <div class="menu">
-            <ul>
-                    <li><a href="#">Home/About</a></li>
-                    <li><a href="#">News</a></li>
-                    <li><a href="#">YouTubers</a></li>
-                    <li><a href="#">Suggestions</a></li>
-            </ul>
+          <ul>
+            <li><a href="#">Home/About</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">YouTubers</a></li>
+            <li><a href="#">Suggestions</a></li>
+          </ul>
         </div>
+      </nav>
+    </header>
 
-    </nav>
+    <script type="text/javascript">
+      $(window).on("scroll", function() {
+        if ($(window).scrollTop()) {
+          $("nav").addClass("black");
+        } else {
+          $("nav").removeClass("black");
+        }
+      });
+    </script>
 
-</header>
+    <!-- HOME/ABOUT -->
 
-<script type="text/javascript">
-$(window).on("scroll", function() {
+    <img
+      src="Images/Welcome.jpg"
+      alt="Welcome image (something went wrong with the image display)"
+      style="width:1643px;height:250px"
+    />
 
-if($(window).scrollTop()) {
-    $('nav').addClass('black');
-}
-
-else {
-
-    $('nav').removeClass('black');
-
-}
-
-})
-</script>
-
-<!-- HOME/ABOUT -->
-
-<img src="Images/Welcome.jpg" alt="Welcome image (something went wrong with the image display)" style="width:1643px;height:250px"/>
-
-<h1>What is this website?</h1>
-<p>
-    This is the official website of the Infinity Craft Minecraft server.
-     Here you can see the current news <br> of the server, view
-    all the YouTubers on it along with their videos, and give suggestions to the server itself!
-</p>
-
- <img src="Images/transparent image.jpg" alt= "Space (failed to load)" style="width:0px;height:400px;"/>
-
-
-    <div class="uplittle"> 
-     <div class="right">
-        <img src="Images/Infinity Craft Logo.jpg" alt= "InfinityCraftLogo (something went wrong with the image display)" style="width:350px;height:300px;"/>
+    <div>
+      <h1>What is this website?</h1>
+      <p class="main-paragraph">
+        This is the official website of the Infinity Craft Minecraft server.
+        Here you can see the current news <br />
+        of the server, view all the YouTubers on it along with their videos, and
+        give suggestions to the server itself!
+      </p>
+      <div class="logo-container">
+        <img
+          class="logo"
+          src="Images/Infinity Craft Logo.jpg"
+          alt="InfinityCraftLogo (something went wrong with the image display)"
+        />
+      </div>
     </div>
-    
-<!-- NEWS SECTION -->
 
-<h2>News</h2>
-<p>
-    ------------------------------------------------------ This is some variable text here so that when there is actually 
-    news on the server you can replace this text with the news. ------------------------------------------------------
+    <img
+      src="Images/transparent image.jpg"
+      alt="Space (failed to load)"
+      style="width:0px;height:400px;"
+    />
 
-</p>
+    <!-- NEWS SECTION -->
 
-<img src="Images/transparent image.jpg" alt= "Space (failed to load)" style="width:0px;height:400px;"/>
+    <h2>News</h2>
+    <p>
+      ------------------------------------------------------ This is some
+      variable text here so that when there is actually news on the server you
+      can replace this text with the news.
+      ------------------------------------------------------
+    </p>
 
-<h3>YouTubers</h3>
+    <img
+      src="Images/transparent image.jpg"
+      alt="Space (failed to load)"
+      style="width:0px;height:400px;"
+    />
 
-<p>
-    Check out and subscibe to all these people out on YouTube because they are the ones that record on the Minecraft server 
+    <h3>YouTubers</h3>
 
-</p>
-
-</body>
+    <p>
+      Check out and subscibe to all these people out on YouTube because they are
+      the ones that record on the Minecraft server
+    </p>
+  </body>
 </html>
-
