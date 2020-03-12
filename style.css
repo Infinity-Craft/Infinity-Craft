@@ -80,18 +80,6 @@ h1 {
   font-size: 25px;
 }
 
-.right {
-  position: absolute;
-  right: 0px;
-  width: 500px;
-  padding: 10px;
-}
-
-.uplittle {
-  position: relative;
-  top: -150px;
-}
-
 h2 {
   color: white;
   text-align: center;
