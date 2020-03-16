@@ -130,3 +130,19 @@ h2 {
 .left {
   float: left;
 }
+
+.h101 {
+  color: rgb(38, 0, 128);
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
